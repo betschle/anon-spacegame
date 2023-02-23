@@ -1,0 +1,23 @@
+plugins {
+    id 'net.nemerosa.versioning' version '2.6.1'
+}
+
+sourceCompatibility = 1.7
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+sourceSets.main.java.srcDirs = [ "src/" ]
+
+eclipse.project.name = appName + "-core"
+
+task dist(type: Jar) {
+    manifest {
+        attributes(
+                'AppName'        : appName,
+                'AppVersion'     : version,
+                'Build-Timestamp': new java.text.SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ").format(new Date()),
+                'Build-Revision' : versioning.info.commit,
+                'Created-By'     : "Gradle ${gradle.gradleVersion}",
+        )
+    }
+}
+

@@ -1,0 +1,658 @@
+{
+  "SolSystem":  {
+    "name": "SolSystem",
+    "minPlanetSpeed": 0.05,
+    "maxPlanetSpeed": 0.5,
+    "spacing": 1600,
+    "star": {
+      "archetype": "archetype_star",
+      "orbitSettings": "orbit_static"
+    },
+
+    "beltSettings": [
+      {
+        "probability": 10,
+        "allowedSubTypes": [
+          {
+            "archetype": "archetype_satellite",
+            "subtype": "ASTEROID_SMALL",
+            "orbitSettings": "orbit_round"
+          }
+        ],
+
+        "chunkDensity": 0.5,
+        "density": 0.01,
+        "orbitMinRadius": 7000,
+        "orbitMaxRadius": 8500,
+        "chunkNames": ["env/asteroid_particle"],
+        "colors": ["umber", "lightwood", "peru", "saddlebrown", "mediumwood", "feldspar", "darkbrown"]
+      },
+
+      {
+        "probability": 3,
+        "allowedSubTypes": [
+          {
+            "archetype": "archetype_satellite",
+            "subtype": "ASTEROID_SMALL",
+            "orbitSettings": "orbit_round"
+          }
+        ],
+
+        "chunkDensity": 0.3,
+        "density": 0.03,
+        "orbitMinRadius": 8000,
+        "orbitMaxRadius": 9500,
+        "chunkNames": ["env/asteroid_particle"],
+        "colors": ["umber", "dirt", "peru", "saddlebrown", "mediumwood", "feldspar", "darkbrown"]
+      }
+    ],
+    "planets": [
+      {
+        "probability": 90,
+        "archetype": "archetype_solid",
+        "subtype": "MOON",
+        "orbitSettings": "orbit_round"
+      },
+
+      {
+        "probability": 20,
+        "archetype": "archetype_solid",
+        "subtype": "VOLCANIC",
+        "orbitSettings": "orbit_round"
+      },
+
+      {
+        "probability": 20,
+        "archetype": "archetype_solid",
+        "subtype": "CONTINENTAL",
+        "orbitSettings": "orbit_round",
+        "satellites": [
+          {
+            "probability": 20,
+            "archetype": "archetype_solid",
+            "subtype": "MOON",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 10,
+            "archetype": "archetype_solid",
+            "subtype": "MOON",
+            "orbitSettings": "orbit_satellite"
+          }
+        ]
+      },
+
+      {
+        "probability": 20,
+        "archetype": "archetype_solid",
+        "subtype": "TOXIC",
+        "orbitSettings": "orbit_round",
+        "satellites": [
+          {
+            "probability": 20,
+            "archetype": "archetype_solid",
+            "subtype": "MOON",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 10,
+            "archetype": "archetype_solid",
+            "subtype": "MOON",
+            "orbitSettings": "orbit_satellite"
+          }
+        ]
+      },
+
+      {
+        "probability": 20,
+        "archetype": "archetype_solid",
+        "subtype": "OCEANIC",
+        "orbitSettings": "orbit_round",
+        "satellites": [
+          {
+            "probability": 10,
+            "archetype": "archetype_solid",
+            "subtype": "MOON",
+            "orbitSettings": "orbit_satellite"
+          }
+        ]
+      },
+
+      {
+        "probability": 80,
+        "archetype": "archetype_gaseous",
+        "orbitSettings": "orbit_round",
+
+        "satellites": [
+          {
+          "probability": 20,
+          "archetype": "archetype_solid",
+          "subtype": "MOON",
+          "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 10,
+            "archetype": "archetype_solid",
+            "subtype": "OCEANIC",
+            "orbitSettings": "orbit_satellite",
+            "satellites": [
+              {
+                "probability": 50,
+                "archetype": "archetype_solid",
+                "subtype": "MOON",
+                "orbitSettings": "orbit_satellite"
+              }
+            ]
+          },
+          {
+            "probability": 20,
+            "archetype": "archetype_satellite",
+            "subtype": "ASTEROID_SMALL",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 20,
+            "archetype": "archetype_satellite",
+            "subtype": "ASTEROID_SMALL",
+            "orbitSettings": "orbit_satellite"
+          }
+        ]
+      },
+
+      {
+        "probability": 20,
+        "archetype": "archetype_satellite",
+        "subtype": "ASTEROID_SMALL",
+        "orbitSettings": "orbit_asteroid"
+      }
+    ,
+      {
+        "probability": 80,
+        "archetype": "archetype_gaseous",
+        "orbitSettings": "orbit_round",
+        "satellites": [
+          {
+            "probability": 20,
+            "archetype": "archetype_solid",
+            "subtype": "MOON",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 1,
+            "archetype": "archetype_solid",
+            "subtype": "OCEANIC",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 20,
+            "archetype": "archetype_satellite",
+            "subtype": "ASTEROID_SMALL",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 20,
+            "archetype": "archetype_satellite",
+            "subtype": "ASTEROID_SMALL",
+            "orbitSettings": "orbit_satellite"
+          }
+        ]
+      },
+
+      {
+        "probability": 20,
+        "archetype": "archetype_solid",
+        "subtype": "VOLCANIC",
+        "orbitSettings": "orbit_round"
+      },
+
+      {
+        "probability": 10,
+        "archetype": "archetype_solid",
+        "subtype": "MOON",
+        "orbitSettings": "orbit_asteroid"
+      },
+
+      {
+        "probability": 50,
+        "archetype": "archetype_satellite",
+        "subtype": "ASTEROID_SMALL",
+        "orbitSettings": "orbit_asteroid"
+      }
+    ]
+  },
+  "BinarySystem": {
+    "name": "BinarySystem",
+    "minPlanetSpeed": 0.05,
+    "maxPlanetSpeed": 0.5,
+    "spacing": 1600,
+    "star": {
+      "archetype": "archetype_star",
+      "orbitSettings": "orbit_static"
+    },
+
+    "beltSettings": [
+      {
+        "probability": 100,
+
+        "allowedSubTypes": [
+          {
+            "archetype": "archetype_satellite",
+            "subtype": "ASTEROID_SMALL",
+            "orbitSettings": "orbit_round"
+          }
+        ],
+        "chunkDensity": 0.5,
+        "density": 0.03,
+        "orbitMinRadius": 6000,
+        "orbitMaxRadius": 8000,
+        "chunkNames": ["env/asteroid_particle"],
+        "colors": ["umber", "leather", "dirt"]
+      }
+    ],
+
+    "planets": [
+      {
+        "probability": 40,
+        "archetype": "archetype_solid",
+        "orbitSettings": "orbit_round"
+      },
+      {
+        "probability": 10,
+        "archetype": "archetype_star",
+        "subtype": "RED_DWARF",
+        "orbitSettings": "orbit_round",
+        "satellites": [
+          {
+            "probability": 60,
+            "archetype": "archetype_solid",
+            "subtype": "MOON",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 50,
+            "archetype": "archetype_solid",
+            "subtype": "MOON",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 40,
+            "archetype": "archetype_solid",
+            "subtype": "MOON",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 30,
+            "archetype": "archetype_solid",
+            "subtype": "MOON",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 30,
+            "archetype": "archetype_gaseous",
+            "orbitSettings": "orbit_round",
+            "satellites": [
+              {
+                "probability": 10,
+                "archetype": "archetype_solid",
+                "orbitSettings": "orbit_round"
+              },
+              {
+                "probability": 10,
+                "archetype": "archetype_solid",
+                "orbitSettings": "orbit_round"
+              }
+            ]
+          },
+          {
+            "probability": 20,
+            "archetype": "archetype_solid",
+            "orbitSettings": "orbit_round"
+          },
+          {
+            "probability": 20,
+            "archetype": "archetype_solid",
+            "orbitSettings": "orbit_round"
+          }
+        ]
+      },
+      {
+        "probability": 20,
+        "archetype": "archetype_solid",
+        "subtype": "CONTINENTAL",
+        "orbitSettings": "orbit_round",
+        "satellites": [
+          {
+            "probability": 2,
+            "archetype": "archetype_solid",
+            "subtype": "MOON",
+            "orbitSettings": "orbit_round"
+          },
+          {
+            "probability": 20,
+            "archetype": "archetype_satellite",
+            "subtype": "ASTEROID_SMALL",
+            "orbitSettings": "orbit_round"
+          },
+          {
+            "probability": 20,
+            "archetype": "archetype_satellite",
+            "subtype": "ASTEROID_SMALL",
+            "orbitSettings": "orbit_round"
+          }
+        ]
+      },
+
+      {
+        "probability": 20,
+        "archetype": "archetype_solid",
+        "subtype": "OCEANIC",
+        "orbitSettings": "orbit_round",
+        "satellites": [
+          {
+            "probability": 10,
+            "archetype": "archetype_solid",
+            "subtype": "MOON",
+            "orbitSettings": "orbit_round"
+          }
+        ]
+      },
+
+      {
+        "probability": 80,
+        "archetype": "archetype_gaseous",
+        "orbitSettings": "orbit_round",
+
+        "satellites": [
+          {
+            "probability": 20,
+            "archetype": "archetype_solid",
+            "subtype": "MOON",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 1,
+            "archetype": "archetype_solid",
+            "subtype": "OCEANIC",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 20,
+            "archetype": "archetype_satellite",
+            "subtype": "ASTEROID_SMALL",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 20,
+            "archetype": "archetype_satellite",
+            "subtype": "ASTEROID_SMALL",
+            "orbitSettings": "orbit_satellite"
+          }
+        ]
+      },
+
+      {
+        "probability": 20,
+        "archetype": "archetype_satellite",
+        "subtype": "ASTEROID_SMALL",
+        "orbitSettings": "orbit_asteroid"
+      }
+    ,
+      {
+        "probability": 80,
+        "archetype": "archetype_gaseous",
+        "orbitSettings": "orbit_round",
+        "satellites": [
+          {
+            "probability": 20,
+            "archetype": "archetype_solid",
+            "subtype": "MOON",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 1,
+            "archetype": "archetype_solid",
+            "subtype": "OCEANIC",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 20,
+            "archetype": "archetype_satellite",
+            "subtype": "ASTEROID_SMALL",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 20,
+            "archetype": "archetype_satellite",
+            "subtype": "ASTEROID_SMALL",
+            "orbitSettings": "orbit_satellite"
+          }
+        ]
+      },
+
+      {
+        "probability": 80,
+        "archetype": "archetype_gaseous",
+        "orbitSettings": "orbit_round",
+        "satellites": [
+          {
+            "probability": 20,
+            "archetype": "archetype_solid",
+            "subtype": "MOON",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 1,
+            "archetype": "archetype_solid",
+            "subtype": "OCEANIC",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 20,
+            "archetype": "archetype_satellite",
+            "subtype": "ASTEROID_SMALL",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 20,
+            "archetype": "archetype_satellite",
+            "subtype": "ASTEROID_SMALL",
+            "orbitSettings": "orbit_satellite"
+          }
+        ]
+      },
+
+      {
+        "probability": 20,
+        "archetype": "archetype_solid",
+        "subtype": "VOLCANIC",
+        "orbitSettings": "orbit_round"
+      },
+
+      {
+        "probability": 10,
+        "archetype": "archetype_solid",
+        "subtype": "MOON",
+        "orbitSettings": "orbit_asteroid"
+      }
+    ]
+  },
+  "AsteroidSystem": {
+    "name": "AsteroidSystem",
+    "minPlanetSpeed": 0.05,
+    "maxPlanetSpeed": 0.2,
+    "spacing": 600,
+    "star": {
+      "archetype": "archetype_star",
+      "orbitSettings": "orbit_static"
+    },
+
+    "beltSettings": [
+      {
+        "probability": 34,
+
+        "allowedSubTypes": [
+          {
+            "archetype": "archetype_solid",
+            "subtype": "MOON",
+            "orbitSettings": "orbit_round"
+          }
+        ],
+        "chunkDensity": 0.3,
+        "density": 0.01,
+        "orbitMinRadius": 12000,
+        "orbitMaxRadius": 15000,
+        "chunkNames": ["env/asteroid_particle"],
+        "colors": ["darkbrown", "bronze", "dirt", "copper"]
+      }
+    ],
+
+    "planets": [
+
+      {
+        "probability": 90,
+        "archetype": "archetype_satellite",
+        "subtype": "ASTEROID_SMALL",
+        "orbitSettings": "orbit_satellite"
+      },
+      {
+        "probability": 80,
+        "archetype": "archetype_satellite",
+        "subtype": "ASTEROID_SMALL",
+        "orbitSettings": "orbit_satellite"
+      },
+      {
+        "probability": 70,
+        "archetype": "archetype_satellite",
+        "subtype": "ASTEROID_SMALL",
+        "orbitSettings": "orbit_satellite"
+      },
+      {
+        "probability": 60,
+        "archetype": "archetype_satellite",
+        "subtype": "ASTEROID_SMALL",
+        "orbitSettings": "orbit_satellite"
+      },
+      {
+        "probability": 50,
+        "archetype": "archetype_satellite",
+        "subtype": "ASTEROID_SMALL",
+        "orbitSettings": "orbit_satellite"
+      },
+      {
+        "probability": 20,
+        "archetype": "archetype_satellite",
+        "subtype": "ASTEROID_SMALL",
+        "orbitSettings": "orbit_satellite"
+      },
+      {
+        "probability": 10,
+        "archetype": "archetype_solid",
+        "subtype": "OCEANIC",
+        "orbitSettings": "orbit_round",
+        "satellites": [
+          {
+            "probability": 20,
+            "archetype": "archetype_solid",
+            "subtype": "MOON",
+            "orbitSettings": "orbit_satellite"
+          }
+        ]
+      },
+
+      {
+        "probability": 20,
+        "archetype": "archetype_gaseous",
+        "subtype": "HYDROGEN",
+        "orbitSettings": "orbit_ellipse",
+
+        "satellites": [
+          {
+            "probability": 20,
+            "archetype": "archetype_solid",
+            "subtype": "MOON",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 10,
+            "archetype": "archetype_satellite",
+            "subtype": "ASTEROID_SMALL",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 4,
+            "archetype": "archetype_satellite",
+            "subtype": "ASTEROID_SMALL",
+            "orbitSettings": "orbit_satellite"
+          }
+        ]
+      },
+
+      {
+        "probability": 80,
+        "archetype": "archetype_satellite",
+        "subtype": "ASTEROID_SMALL",
+        "orbitSettings": "orbit_asteroid"
+      },
+
+      {
+        "probability": 20,
+        "archetype": "archetype_solid",
+        "subtype": "VOLCANIC",
+        "orbitSettings": "orbit_round"
+      },
+      {
+        "probability": 10,
+        "archetype": "archetype_solid",
+        "subtype": "TOXIC",
+        "orbitSettings": "orbit_round"
+      },
+
+      {
+        "probability": 23,
+        "archetype": "archetype_solid",
+        "subtype": "MOON",
+        "orbitSettings": "orbit_asteroid"
+      },
+
+      {
+        "probability": 20,
+        "archetype": "archetype_gaseous",
+        "subtype": "HYDROGEN",
+        "orbitSettings": "orbit_ellipse",
+
+        "satellites": [
+          {
+            "probability": 20,
+            "archetype": "archetype_solid",
+            "subtype": "MOON",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 10,
+            "archetype": "archetype_satellite",
+            "subtype": "ASTEROID_SMALL",
+            "orbitSettings": "orbit_satellite"
+          },
+          {
+            "probability": 4,
+            "archetype": "archetype_satellite",
+            "subtype": "ASTEROID_SMALL",
+            "orbitSettings": "orbit_satellite"
+          }
+        ]
+      }
+    ]
+  },
+  "Empty": {
+    "name": "Empty",
+    "minPlanetSpeed": 0.0,
+    "maxPlanetSpeed": 0.0,
+    "spacing": 0,
+    "star": {
+      "archetype": "archetype_star",
+      "orbitSettings": "orbit_static"
+    },
+    "beltSettings": [],
+    "planets": []
+  }
+}

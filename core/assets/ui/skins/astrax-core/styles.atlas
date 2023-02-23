@@ -1,0 +1,903 @@
+
+styles.png
+size: 1024, 512
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+XYZ_Logo
+  rotate: false
+  xy: 1, 8
+  size: 171, 45
+  orig: 171, 45
+  offset: 0, 0
+  index: -1
+checkBox_1_off
+  rotate: false
+  xy: 173, 4
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+checkBox_1_on
+  rotate: false
+  xy: 508, 274
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+icon24x24_arrow_right_down
+  rotate: false
+  xy: 364, 233
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon24x24_arrow_right_up
+  rotate: false
+  xy: 364, 208
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon24x24_minus_down
+  rotate: false
+  xy: 389, 233
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon24x24_plus_down
+  rotate: false
+  xy: 389, 208
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon24x24_plus_up
+  rotate: false
+  xy: 414, 233
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon24x24_question_down
+  rotate: false
+  xy: 414, 208
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon24x24_question_up
+  rotate: false
+  xy: 439, 233
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon32x32_cog
+  rotate: false
+  xy: 553, 439
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_cog_down
+  rotate: false
+  xy: 706, 479
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_cog_selected
+  rotate: false
+  xy: 586, 439
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_focus
+  rotate: false
+  xy: 739, 479
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_focus_pushed
+  rotate: false
+  xy: 772, 479
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_galaxy
+  rotate: false
+  xy: 805, 479
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_galaxy_down
+  rotate: false
+  xy: 838, 479
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_galaxy_selected
+  rotate: false
+  xy: 871, 479
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_help
+  rotate: false
+  xy: 904, 479
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_help_down
+  rotate: false
+  xy: 937, 479
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_help_selected
+  rotate: false
+  xy: 970, 479
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_home
+  rotate: false
+  xy: 265, 225
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_home_pushed
+  rotate: false
+  xy: 265, 192
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_minus
+  rotate: false
+  xy: 251, 159
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_minus_pushed
+  rotate: false
+  xy: 251, 159
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_plus
+  rotate: false
+  xy: 298, 225
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_plus_pushed
+  rotate: false
+  xy: 251, 126
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_stars
+  rotate: false
+  xy: 298, 192
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_stars_down
+  rotate: false
+  xy: 284, 159
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_stars_selected
+  rotate: false
+  xy: 331, 225
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_zoomIn
+  rotate: false
+  xy: 251, 93
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_zoomIn_pushed
+  rotate: false
+  xy: 284, 126
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_zoomOut
+  rotate: false
+  xy: 331, 192
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon32x32_zoomOut_pushed
+  rotate: false
+  xy: 317, 159
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon_18x18_hot
+  rotate: false
+  xy: 942, 460
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+icon_atmosphere
+  rotate: false
+  xy: 439, 208
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_attention
+  rotate: false
+  xy: 464, 233
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_bacteria
+  rotate: false
+  xy: 464, 208
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_cancel
+  rotate: false
+  xy: 350, 167
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_chips
+  rotate: false
+  xy: 284, 93
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon_cloud
+  rotate: false
+  xy: 350, 142
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_fish
+  rotate: false
+  xy: 350, 117
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_fossil
+  rotate: false
+  xy: 350, 92
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_goat
+  rotate: false
+  xy: 375, 170
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_humanoid
+  rotate: false
+  xy: 375, 145
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_ice
+  rotate: false
+  xy: 400, 170
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_info
+  rotate: false
+  xy: 375, 120
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_leaf
+  rotate: false
+  xy: 400, 145
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_nuclear
+  rotate: false
+  xy: 375, 95
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_orbit
+  rotate: false
+  xy: 400, 120
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_peak
+  rotate: false
+  xy: 400, 95
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_plant
+  rotate: false
+  xy: 426, 183
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_plus
+  rotate: false
+  xy: 451, 183
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_quake
+  rotate: false
+  xy: 425, 158
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_rain
+  rotate: false
+  xy: 425, 133
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_research
+  rotate: false
+  xy: 317, 126
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icon_rings
+  rotate: false
+  xy: 450, 158
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_shower
+  rotate: false
+  xy: 425, 108
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_storm
+  rotate: false
+  xy: 450, 133
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_success
+  rotate: false
+  xy: 450, 108
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_volcano
+  rotate: false
+  xy: 476, 183
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon_water
+  rotate: false
+  xy: 475, 158
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+label
+  rotate: false
+  xy: 627, 477
+  size: 46, 34
+  split: 38, 5, 17, 16
+  orig: 46, 34
+  offset: 0, 0
+  index: 1
+label
+  rotate: false
+  xy: 387, 258
+  size: 30, 12
+  split: 6, 5, 5, 5
+  orig: 30, 12
+  offset: 0, 0
+  index: 0
+label_0_purple
+  rotate: false
+  xy: 364, 195
+  size: 30, 12
+  split: 6, 5, 5, 5
+  orig: 30, 12
+  offset: 0, 0
+  index: -1
+label_0_selected
+  rotate: false
+  xy: 418, 258
+  size: 30, 12
+  split: 6, 5, 5, 5
+  orig: 30, 12
+  offset: 0, 0
+  index: -1
+label_1_hover
+  rotate: false
+  xy: 506, 437
+  size: 46, 34
+  split: 38, 5, 17, 16
+  orig: 46, 34
+  offset: 0, 0
+  index: -1
+label_1_pushed
+  rotate: false
+  xy: 202, 56
+  size: 46, 34
+  split: 38, 5, 17, 16
+  orig: 46, 34
+  offset: 0, 0
+  index: -1
+label_transparent
+  rotate: false
+  xy: 395, 195
+  size: 30, 12
+  split: 6, 5, 5, 5
+  orig: 30, 12
+  offset: 0, 0
+  index: -1
+label_transparent_selected
+  rotate: false
+  xy: 449, 258
+  size: 30, 12
+  split: 6, 5, 5, 5
+  orig: 30, 12
+  offset: 0, 0
+  index: -1
+logo1
+  rotate: false
+  xy: 258, 258
+  size: 128, 32
+  orig: 128, 32
+  offset: 0, 0
+  index: -1
+orbit
+  rotate: false
+  xy: 317, 93
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+panel
+  rotate: false
+  xy: 202, 140
+  size: 48, 51
+  split: 11, 14, 13, 13
+  pad: 11, 14, 12, 14
+  orig: 48, 51
+  offset: 0, 0
+  index: 2
+panel
+  rotate: false
+  xy: 202, 91
+  size: 48, 48
+  split: 8, 13, 8, 13
+  orig: 48, 48
+  offset: 0, 0
+  index: 1
+panel
+  rotate: false
+  xy: 173, 21
+  size: 32, 32
+  split: 6, 6, 6, 6
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+panel
+  rotate: false
+  xy: 1003, 476
+  size: 14, 14
+  split: 6, 6, 6, 6
+  orig: 14, 14
+  offset: 0, 0
+  index: 4
+panel_4_selected
+  rotate: false
+  xy: 495, 256
+  size: 14, 14
+  split: 6, 6, 6, 6
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+panel_inset
+  rotate: false
+  xy: 480, 258
+  size: 14, 12
+  split: 6, 6, 5, 5
+  orig: 14, 12
+  offset: 0, 0
+  index: 1
+panel_inset_brass
+  rotate: false
+  xy: 489, 213
+  size: 14, 12
+  split: 6, 6, 5, 5
+  orig: 14, 12
+  offset: 0, 0
+  index: 1
+panel_outset
+  rotate: false
+  xy: 619, 434
+  size: 14, 12
+  split: 6, 6, 5, 5
+  orig: 14, 12
+  offset: 0, 0
+  index: 1
+panel_outset_brass
+  rotate: false
+  xy: 634, 434
+  size: 14, 12
+  split: 6, 6, 5, 5
+  orig: 14, 12
+  offset: 0, 0
+  index: 1
+pattern_grid
+  rotate: false
+  xy: 202, 192
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+planetType_asteroid
+  rotate: false
+  xy: 475, 133
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+planetType_asteroid_purple
+  rotate: false
+  xy: 475, 108
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+planetType_gaseous
+  rotate: false
+  xy: 425, 83
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+planetType_gaseous_purple
+  rotate: false
+  xy: 450, 83
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+planetType_moon
+  rotate: false
+  xy: 475, 83
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+planetType_moon_purple
+  rotate: false
+  xy: 237, 31
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+planetType_solid
+  rotate: false
+  xy: 619, 447
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+planetType_solid_purple
+  rotate: false
+  xy: 644, 452
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+planetType_star
+  rotate: false
+  xy: 669, 450
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+planetType_star_purple
+  rotate: false
+  xy: 694, 450
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+planetType_toxic
+  rotate: false
+  xy: 719, 454
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+planetType_toxic_purple
+  rotate: false
+  xy: 744, 454
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+planetType_unknown
+  rotate: false
+  xy: 769, 454
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+planetType_unknown_purple
+  rotate: false
+  xy: 794, 454
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+planetType_volcanic
+  rotate: false
+  xy: 819, 454
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+planetType_volcanic_purple
+  rotate: false
+  xy: 844, 454
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+planet_HUD
+  rotate: false
+  xy: 258, 432
+  size: 247, 79
+  orig: 247, 79
+  offset: 0, 0
+  index: -1
+planet_selection
+  rotate: false
+  xy: 1, 255
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+progressbar
+  rotate: false
+  xy: 506, 492
+  size: 120, 19
+  orig: 120, 19
+  offset: 0, 0
+  index: -1
+progressbar_bg
+  rotate: false
+  xy: 387, 271
+  size: 120, 19
+  orig: 120, 19
+  offset: 0, 0
+  index: -1
+progressbar_green
+  rotate: false
+  xy: 506, 472
+  size: 120, 19
+  orig: 120, 19
+  offset: 0, 0
+  index: -1
+scroll_hknob
+  rotate: false
+  xy: 510, 259
+  size: 14, 14
+  split: 6, 7, 0, 14
+  pad: 6, 7, -1, -1
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+scroll_horizontal
+  rotate: false
+  xy: 525, 259
+  size: 14, 14
+  split: 5, 5, 0, 14
+  pad: 5, 5, -1, -1
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+scroll_knob
+  rotate: false
+  xy: 980, 462
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+scroll_vertical
+  rotate: false
+  xy: 489, 241
+  size: 14, 14
+  split: 0, 14, 5, 5
+  pad: -1, -1, 5, 5
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+scroll_vknob
+  rotate: false
+  xy: 489, 226
+  size: 14, 14
+  split: 0, 14, 6, 7
+  pad: -1, -1, 6, 7
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+sonar_bg
+  rotate: false
+  xy: 1, 54
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+sonar_circle
+  rotate: false
+  xy: 258, 291
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+sonar_circle_inner
+  rotate: false
+  xy: 399, 291
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+sonar_marker_arrow
+  rotate: false
+  xy: 919, 456
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+sonar_marker_planet
+  rotate: false
+  xy: 1003, 491
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+sonar_marker_poi
+  rotate: false
+  xy: 961, 460
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+sonar_marker_star
+  rotate: false
+  xy: 206, 25
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 1018, 485
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: 1
+star
+  rotate: false
+  xy: 1018, 479
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: 2
+star
+  rotate: false
+  xy: 997, 473
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: 3
+star
+  rotate: false
+  xy: 1018, 473
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: 4
+starmap_marker_self
+  rotate: false
+  xy: 869, 454
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+starmap_marker_self
+  rotate: false
+  xy: 894, 454
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 1
+targetor
+  rotate: false
+  xy: 206, 1
+  size: 22, 23
+  split: 10, 11, 11, 11
+  orig: 22, 23
+  offset: 0, 0
+  index: -1
+title
+  rotate: false
+  xy: 674, 475
+  size: 31, 36
+  split: 6, 16, 13, 14
+  pad: 6, 16, 14, 14
+  orig: 31, 36
+  offset: 0, 0
+  index: -1
+transparent
+  rotate: false
+  xy: 202, 54
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

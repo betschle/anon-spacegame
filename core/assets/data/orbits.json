@@ -1,0 +1,47 @@
+{
+  "orbit_static": {
+    "orbitType": "STATIC",
+    "x": 0,
+    "y": 0
+  },
+
+  "orbit_ellipse": {
+    "orbitType": "ELLIPSOID",
+    "minVelocity": 0.002,
+    "maxVelocity": 0.004,
+    "minWidthMargin": -400,
+    "maxWidthMargin": 400,
+    "minHeightMargin": -30,
+    "maxHeightMargin": 30
+  },
+
+  "orbit_round": {
+    "orbitType": "ELLIPSOID",
+    "minVelocity": 0.002,
+    "maxVelocity": 0.004,
+    "minWidthMargin": -150,
+    "maxWidthMargin": 150,
+    "minHeightMargin": -150,
+    "maxHeightMargin": 150
+  },
+
+  "orbit_satellite": {
+    "orbitType": "ELLIPSOID",
+    "minVelocity": 0.08,
+    "maxVelocity": 0.2,
+    "minWidthMargin": 0,
+    "maxWidthMargin": 350,
+    "minHeightMargin": 0,
+    "maxHeightMargin": 350
+  },
+
+  "orbit_asteroid": {
+    "orbitType": "ELLIPSOID",
+    "minVelocity": 0.01,
+    "maxVelocity": 0.02,
+    "minWidthMargin": -200,
+    "maxWidthMargin": 200,
+    "minHeightMargin": -260,
+    "maxHeightMargin": 260
+  }
+}

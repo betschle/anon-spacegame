@@ -1,0 +1,117 @@
+{
+  "classification_life": {
+    "id": "classification_life",
+    "name": "Life",
+    "description": "Life classification. Indicates to which extent life is possible, but does not indicate whether it exists. ",
+    "levels": [
+      {
+        "name": "None",
+        "description": "There is no life whatsoever here."
+      },
+      {
+        "name": "Bacterial",
+        "description": "Microscopic cellular organisms are capable to form."
+      },
+      {
+        "name": "Floral",
+        "description": "Established Plant-life that formed of a thin layer of soil over the eons."
+      },
+      {
+        "name": "Animal",
+        "description": "A well-developed fauna is present. Thick layers of soil and organic matter cover the planet."
+      },
+      {
+        "name": "Sentient",
+        "description": "A planet capable to support intelligent life. You may find primitive cultures here."
+      },
+      {
+        "name": "Space-faring",
+        "description": "A planet with ideal conditions to develop sentient life capable of intergalactic travel. You may find technologically advanced cultures here."
+      }
+    ]
+  },
+
+  "classification_weather": {
+    "id": "classification_weather",
+    "name": "Weather",
+    "description": "Indicates overall climate conditions.",
+    "levels": [
+      {
+      "name": "No Atmosphere",
+      "description": "No gaseous matter present. Nothing to see here."
+      },
+      {
+      "name": "Thin Atmosphere",
+      "description": "Thin Atmosphere. Mostly dust storms, limited rainfall."
+      },
+      {
+      "name": "Normal Storms",
+      "description": "Normal rainfall and severity of thunderstorms. Occasional hurricanes, tornadoes, monsoon."
+      },
+      {
+      "name": "Raging Storms",
+      "description": "Severe rain, thunderstorms and erosion. Frequent hurricanes, tornados, monsoon. "
+      },
+      {
+      "name": "Extreme Storms",
+      "description": "High speed storms. Neither natural nor human structures can withstand them."
+      },
+      {
+      "name": "Solar Winds",
+      "description": "Searing hot, intense particle storms."
+      }
+    ]
+  },
+
+  "classification_temperature": {
+    "id": "classification_temperature",
+    "name": "Temperature",
+    "description": "Temperature classification for Planets",
+    "levels": [
+      {
+        "name": "Extreme Cold",
+        "description": "Temperature too low to form life other than rudimentary, microbial life."
+      },
+      {
+        "name": "Cold",
+        "description": "Life is possible at low temperatures, but lifeforms require specific adaptions to survive."
+      },
+      {
+        "name": "Normal",
+        "description": "This Base Level defines the temperature at which Life thrives."
+      },
+      {
+        "name": "Hot",
+        "description": "Life is possible at hot temperatures, but lifeforms require specific adaptions to survive."
+      },
+      {
+        "name": "Extremely Hot",
+        "description": "Temperature too high to form life other than rudimentary, microbial life."
+      }
+    ]
+  },
+
+  "classification_radiation": {
+    "id": "classification_radiation",
+    "name": "Radiation",
+    "description": "Temperature classification for Planets",
+    "levels": [
+      {
+        "name": "Very Low",
+        "description": "Radiation levels are almost zero."
+      },
+      {
+        "name": "Low",
+        "description": "Radiation level is low enough to sustain life without affecting it."
+      },
+      {
+        "name": "Medium",
+        "description": "Radiation levels are low enough to sustain life, but it causes frequent mutations."
+      },
+      {
+        "name": "High",
+        "description": "Life is impossible at these radiation levels."
+      }
+    ]
+  }
+}

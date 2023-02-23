@@ -1,0 +1,1068 @@
+{
+  "traitList": [
+    {
+      "id": "planetTrait_surfaceSun",
+      "name": "Sun",
+      "icon": "planetType_star",
+      "discoveryDescription": "A blazing ball of nitrogen and hydrogen.",
+      "discoveryPoints": 1,
+      "category": "ATMOSPHERIC",
+      "textureSettings": [
+        {
+          "texture": "env/sun_base",
+          "colors": ["fire", "orange", "yellow"],
+          "minRotation": "-20",
+          "maxRotation": "20"
+        }
+      ],
+      "modifiers": {
+        "classification_life": -2,
+        "classification_weather": 2,
+        "classification_temperature": 1,
+        "classification_radiation": 2
+      }
+    },
+
+    {
+      "id": "planetTrait_surfaceDwarf",
+      "name": "Dwarf Star",
+      "icon": "planetType_star",
+      "discoveryDescription": "A dwarven star.",
+      "discoveryPoints": 1,
+      "category": "ATMOSPHERIC",
+      "textureSettings": [
+        {
+          "texture": "env/sun_base",
+          "colors": ["copper", "orange", "darkbrown"],
+          "minRotation": "-20",
+          "maxRotation": "20"
+        }
+      ],
+      "modifiers": {
+        "classification_life": -2,
+        "classification_weather": 2,
+        "classification_temperature": 1,
+        "classification_radiation": 2
+      }
+    },
+
+    {
+      "id": "planetTrait_surfaceNeutronStar",
+      "name": "Neutron Star",
+      "icon": "planetType_star",
+      "discoveryDescription": "Neutron Stars are rare finds. When a star dies in a supernova and fails to reach a certain mass to form a black hole, what remains is its highly compressed inner core, the neutron star. ",
+      "discoveryPoints": 1,
+      "category": "ATMOSPHERIC",
+      "textureSettings": [
+        {
+          "texture": "env/sun_base",
+          "colors": ["white", "wheat"],
+          "minRotation": "-20",
+          "maxRotation": "20"
+        },
+        {
+          "texture": "env/planet_continental",
+          "colors": ["white", "brighterblue"],
+          "minRotation": "-10",
+          "maxRotation": "10"
+        }
+      ],
+      "modifiers": {
+        "classification_life": -2,
+        "classification_weather": 4,
+        "classification_temperature": 4,
+        "classification_radiation": 4
+      }
+    },
+    {
+      "id": "planetTrait_surfaceCarbonStar",
+      "name": "Carbon Star",
+      "icon": "planetType_star",
+      "discoveryDescription": "A star similar to a red giant that instead consists of oxygen and carbon.",
+      "discoveryPoints": 1,
+      "category": "ATMOSPHERIC",
+      "textureSettings": [
+        {
+          "texture": "env/sun_base",
+          "colors": ["red", "brick"],
+          "minRotation": "-20",
+          "maxRotation": "20"
+        },
+        {
+          "texture": "env/planet_continental",
+          "colors": ["white", "wheat"],
+          "minRotation": "-10",
+          "maxRotation": "10"
+        }
+      ],
+      "modifiers": {
+        "classification_life": -2,
+        "classification_weather": 4,
+        "classification_temperature": 4
+      }
+    },
+
+    {
+      "id": "planetTrait_surfaceBarren",
+      "name": "Barren",
+      "icon": "planetType_moon",
+      "discoveryDescription": "This is a barren planet. There isn't much to see here, except for a very rocky landscape.",
+      "discoveryPoints": 1,
+      "category": "ATMOSPHERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_base",
+          "colors": ["olive", "salmon", "savannah", "sewer", "umber", "wheat"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        },
+        {
+          "texture": "env/planet_rocky",
+          "colors": ["steelgray", "grayLight", "bark", "rose", "dirt", "darkwood"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        },
+
+        {
+          "texture": "env/planet_fractal",
+          "colors": ["moss", "sand", "saddlebrown"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        }
+      ],
+      "modifiers": {
+        "classification_life": -1,
+        "classification_weather": -1
+      }
+    },
+
+    {
+      "id": "planetTrait_surfaceContinental",
+      "name": "Continental",
+      "icon": "planetType_solid",
+      "discoveryDescription": "This planet appears to have continents in various sizes. Your scanners detect a layer of soil, which may support different lifeforms.",
+      "discoveryPoints": 1,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_base",
+          "colors": ["umber", "dirt", "peru", "saddlebrown"]
+        },
+        {
+          "texture": "env/planet_continental",
+          "colors": ["sand", "savannah", "wheat"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        },
+        {
+          "texture": "env/planet_continental",
+          "colors": ["fern", "boreal", "borealDark", "pine", "moss"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        },
+
+        {
+          "texture": "env/planet_rocky",
+          "colors": ["grayDark", "grayLight"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        }
+      ],
+      "modifiers": {
+        "classification_life": 2,
+        "classification_temperature": 1,
+        "classification_weather": 1
+      }
+    },
+
+    {
+      "id": "planetTrait_surfaceOceanic",
+      "name": "Oceanic",
+      "icon": "icon_water",
+      "discoveryDescription": "This planet appears to mostly consist of water with small bodies of land scattered around. It may support different lifeforms.",
+      "discoveryPoints": 1,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_base",
+          "colors": ["palegreen", "seaweed", "moss", "fern","wheat", "sand"]
+        },
+        {
+          "texture": "env/planet_rocky",
+          "colors": ["palegreen", "meadow", "olive"]
+        },
+        {
+          "texture": "env/planet_fractal",
+          "colors": ["leather", "peru", "darkwood"]
+        }
+      ],
+      "modifiers": {
+        "classification_life": 2,
+        "classification_temperature": 2,
+        "classification_weather": 2
+      }
+    },
+
+    {
+      "id": "planetTrait_surfaceToxic",
+      "name": "Toxic",
+      "icon": "planetType_toxic",
+      "discoveryDescription": "This planet's surface mostly consists of molten rock, indicating it is a rather young planet.",
+      "discoveryPoints": 1,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_base",
+          "colors": ["umber", "beige" ,"palegreen"]
+        },
+        {
+          "texture": "env/planet_continental",
+          "colors": ["boreal", "seaweed"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        }
+      ],
+      "modifiers": {
+        "classification_life": 1,
+        "classification_temperature": 1,
+        "classification_weather": 1,
+        "classification_radiation": 1
+      }
+    },
+
+    {
+      "id": "planetTrait_surfaceVolcanic",
+      "name": "Volcanic Surface",
+      "icon": "planetType_volcanic",
+      "discoveryDescription": "This planet's surface mostly consists of molten rock, indicating it is a rather young planet.",
+      "discoveryPoints": 1,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_base",
+          "colors": ["anthracite", "bordeaux", "grape"]
+        },
+        {
+          "texture": "env/planet_continental",
+          "colors": ["beige", "lilac", "wheat"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        },
+        {
+          "texture": "env/planet_rocky",
+          "colors": ["darkwood", "saddlebrown", "darkbrown"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        }
+      ],
+      "modifiers": {
+        "classification_temperature": 2,
+        "classification_weather": 1,
+        "classification_radiation": 1
+      }
+    },
+
+    {
+      "id": "planetTrait_surfaceGaseous",
+      "name": "Gaseous Surface",
+      "icon": "planetType_gaseous",
+      "discoveryDescription": "This planet is covered in thick clouds of gas, with raging storms haunting its surface.",
+      "discoveryPoints": 1,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_base",
+          "colors": ["orange", "beige", "crimson", "beach", "dirt", "red"]
+        },
+        {
+          "texture": "env/planet_gaseous",
+          "colors": ["dirt", "sand", "bark", "moss", "pine"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        },
+        {
+          "texture": "env/planet_gaseous",
+          "colors": ["savannah", "meadow", "wheat", "olive", "leather"],
+          "minRotation": "0",
+          "maxRotation": "45"
+        }
+      ],
+      "modifiers": {
+        "classification_temperature": 3,
+        "classification_weather": 2
+      }
+    },
+
+    {
+      "id": "planetTrait_gaseousStorms",
+      "name": "Megastorms",
+      "icon": "icon_storm",
+      "discoveryDescription": "Multiple storms of volatile gases raging across the surface of this planet, typical of gas giants.",
+      "discoveryPoints": 10,
+      "category": "ATMOSPHERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_storm",
+          "colors": ["yellow", "grape", "rose", "purple", "white"],
+          "minRotation": "-20",
+          "maxRotation": "20"
+        }
+      ],
+      "modifiers": {
+        "classification_weather": 1,
+        "classification_radiation": 1
+      }
+    },
+
+    {
+      "id": "planetTrait_gaseousCyclone",
+      "name": "Giant Cyclone",
+      "icon": "icon_storm",
+      "discoveryDescription": "A cyclone of massive proportions raging across the surface of this planet.",
+      "discoveryPoints": 10,
+      "category": "ATMOSPHERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_cyclone",
+          "colors": ["beige", "salmon", "wheat", "white"],
+          "minRotation": "0",
+          "maxRotation": "360"
+        }
+      ],
+      "modifiers": {
+        "classification_weather": 1
+      }
+    },
+
+    {
+      "id": "planetTrait_diamondRain",
+      "name": "Diamond Rain",
+      "icon": "icon_cloud",
+      "discoveryDescription": "Due to high pressure and low internal heat of this planet, menthane is decomposed to carbon, which is then pressurized into solid diamond as it descends into deeper layers of the atmosphere.",
+      "discoveryPoints": 10,
+      "category": "ATMOSPHERIC",
+      "modifiers": {
+        "classification_weather": 1
+      }
+    },
+
+    {
+      "id": "planetTrait_meteorImpact",
+      "name": "Meteor Impact Site",
+      "icon": "icon_shower",
+      "discoveryDescription": "Multiple large meteor impacts.",
+      "discoveryPoints": 5,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_crater",
+          "colors": ["black50", "black"],
+          "minRotation": "0",
+          "maxRotation": "90"
+        }
+      ],
+      "modifiers": {
+      }
+    },
+
+
+    {
+      "id": "planetTrait_ocean80",
+      "name": "Large Ocean",
+      "icon": "icon_water",
+      "discoveryDescription": "A large body of water, prerequisite of life.",
+      "discoveryPoints": 5,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_ocean",
+          "colors": ["blue", "prussian", "cadetblue", "beach", "midnightblue", "richblue", "slateblue"],
+          "minRotation": "0",
+          "maxRotation": "360"
+        }
+      ],
+      "modifiers": {
+        "classification_life": 1
+      }
+    },
+
+    {
+      "id": "planetTrait_cyclone",
+      "name": "Cyclones",
+      "icon": "icon_storm",
+      "discoveryDescription": "Cyclones regularly form in the atmosphere of this planet.",
+      "discoveryPoints": 10,
+      "category": "ATMOSPHERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_cyclone",
+          "colors": ["beige", "wheat", "white"],
+          "minRotation": "0",
+          "maxRotation": "360"
+        }
+      ],
+      "modifiers": {
+        "classification_weather": 1
+      }
+    },
+
+    {
+      "id": "planetTrait_rainfall",
+      "name": "Rainfall",
+      "icon": "icon_cloud",
+      "discoveryDescription": "You detected clouds and rain.",
+      "discoveryPoints": 10,
+      "category": "ATMOSPHERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_icecaps",
+          "colors": ["white", "grayLight"]
+        },
+        {
+          "texture": "env/planet_clouds",
+          "colors": ["white"],
+          "minRotation": "0",
+          "maxRotation": "360"
+        }
+      ],
+      "modifiers": {
+        "classification_weather": 1
+      }
+    },
+
+    {
+      "id": "planetTrait_acidRain",
+      "name": "Acid Rain",
+      "icon": "icon_rain",
+      "discoveryDescription": "Your sensors detected toxic clouds that release acid rain.",
+      "discoveryPoints": 5,
+      "category": "ATMOSPHERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_clouds",
+          "colors": ["meadow", "toxic"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        }
+
+      ],
+      "modifiers": {
+        "classification_life": -1
+      }
+    },
+
+    {
+      "id": "planetTrait_iceAge",
+      "name": "Ice Age",
+      "icon": "icon_ice",
+      "discoveryDescription": "This planet currently is going through an ice age.",
+      "discoveryPoints": 5,
+      "category": "ATMOSPHERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_icecaps",
+          "colors": ["white", "grayLight"]
+        }
+      ],
+      "modifiers": {
+        "classification_temperature": -1
+      }
+    },
+    {
+      "id": "planetTrait_toxicOcean",
+      "name": "Toxic Ocean",
+      "icon": "planetType_toxic",
+      "discoveryDescription": "Oceans on this planet are contaminated with toxic chemicals.",
+      "discoveryPoints": 5,
+      "category": "HYDROSPHERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_ocean",
+          "colors": ["borealDark", "seagreen"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        }
+      ],
+      "modifiers": {
+        "classification_life": -1,
+        "classification_radiation": 1
+      }
+    },
+    {
+      "id": "planetTrait_atmosphere",
+      "name": "Atmosphere",
+      "icon": "icon_storm",
+      "discoveryDescription": "A layer of gas, an atmosphere.",
+      "discoveryPoints": 5,
+      "category": "ATMOSPHERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_atmosphere",
+          "colors": ["white", "bubbles"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        }
+      ],
+      "modifiers": {
+        "classification_weather": 1
+      }
+    },
+    {
+      "id": "planetTrait_toxicAtmosphere",
+      "name": "Toxic Atmosphere",
+      "icon": "icon_storm",
+      "discoveryDescription": "A layer of toxic gas is engulfing the planet. It's toxic to most forms of life.",
+      "discoveryPoints": 5,
+      "category": "ATMOSPHERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_atmosphere",
+          "colors": ["meadow", "yellow", "wheat", "savannah"]
+        }
+      ],
+      "modifiers": {
+        "classification_weather": 1
+      }
+    },
+    {
+      "id": "planetTrait_plateTectonics",
+      "name": "Plate Tectonics",
+      "icon": "icon_quake",
+      "discoveryDescription": "Seismographic activity detected.",
+      "discoveryPoints": 10,
+      "category": "HYDROSPHERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_ravines",
+          "colors": ["chocolate", "darkwood", "bronze", "copper"],
+          "minRotation": "20",
+          "maxRotation": "120"
+        }
+      ],
+      "modifiers": {
+        "classification_radiation": 1
+      }
+    },
+    {
+      "id": "planetTrait_earthquakes",
+      "name": "Earthquakes",
+      "icon": "icon_quake",
+      "discoveryDescription": "Occasional earthquakes creating faults in the planet's mantle.",
+      "discoveryPoints": 10,
+      "category": "HYDROSPHERIC",
+      "textureSettings": [
+      ],
+      "modifiers": {}
+    },
+
+    {
+      "id": "planetTrait_nuclearWinter",
+      "name": "Nuclear Winter",
+      "icon": "icon_nuclear",
+      "discoveryDescription": "For some reason, this planet is in a state of nuclear winter.",
+      "discoveryPoints": 15,
+      "category": "HYDROSPHERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_fractal",
+          "colors": ["white", "salmon", "toxic"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        }
+      ],
+      "modifiers": {
+        "classification_life": -1,
+        "classification_temperature": -1,
+        "classification_radiation": 1
+      }
+    },
+
+    {
+      "id": "planetTrait_meteorShower",
+      "name": "Meteor Shower",
+      "icon": "icon_shower",
+      "discoveryDescription": "Meteors hit this celestial body frequently, impacting its geology. This creates a turbulent climate and unfortunate conditions for life to form.",
+      "discoveryPoints": 7,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+      ],
+      "modifiers": {
+        "classification_life": -1
+      }
+    },
+
+    {
+      "id": "planetTrait_microbes",
+      "name": "Microbial Life",
+      "icon": "icon_bacteria",
+      "discoveryDescription": "Collected samples indicate the presence of extraterrestial microbial life.",
+      "discoveryPoints": 30,
+      "category": "BIOLOGIC",
+      "textureSettings": [],
+      "modifiers": {
+        "classification_life": 1
+      }
+    },
+
+    {
+      "id": "planetTrait_plants",
+      "name": "Floral Land Life",
+      "icon": "icon_plant",
+      "discoveryDescription": "Matter of plant-like specimens has been collected for further study.",
+      "discoveryPoints": 40,
+      "category": "BIOLOGIC",
+      "textureSettings": [],
+      "modifiers": {
+        "classification_life": 1
+      }
+    },
+    {
+      "id": "planetTrait_algae",
+      "name": "Algae",
+      "icon": "icon_plant",
+      "discoveryDescription": "Matter of algae-like specimens has been collected for further study.",
+      "discoveryPoints": 40,
+      "category": "BIOLOGIC",
+      "textureSettings": [],
+      "modifiers": {
+        "classification_life": 1
+      }
+    },
+
+    {
+      "id": "planetTrait_anoxicEvent",
+      "name": "Oceanic Anoxic Event",
+      "icon": "icon_fish",
+      "discoveryDescription": "Analysis of sediments suggest past oceanic anoxic events. These events cause the oxygen levels to deplete, creating underwater dead zones. They often coincide with mass extinction events. Remains of marine life may form natural oil and gas reserves.",
+      "discoveryPoints": 17,
+      "category": "HYDROSPHERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_rocky",
+          "colors": ["beach", "slateblue"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        }
+      ],
+      "modifiers": {
+        "classification_life": -1
+      }
+    },
+
+    {
+      "id": "planetTrait_fossilSite",
+      "name": "Fossil Site",
+      "icon": "icon_fossil",
+      "discoveryDescription": "An ancient fossil site, indicator of prehistoric life.",
+      "discoveryPoints": 10,
+      "category": "LITHOSPERIC",
+      "textureSettings": [],
+      "modifiers": {
+      }
+    },
+
+    {
+      "id": "planetTrait_giantReef",
+      "name": "Giant Reef",
+      "icon": "icon_fish",
+      "discoveryDescription": "This appears to be beautiful reef that is visible from space.",
+      "discoveryPoints": 10,
+      "category": "LITHOSPERIC",
+      "textureSettings": [],
+      "modifiers": {
+        "classification_life": 1
+      }
+    },
+
+    {
+      "id": "planetTrait_extremeMountains",
+      "name": "Extreme Mountains",
+      "icon": "icon_peak",
+      "discoveryDescription": "Extremely steep mountains affecting life and weather alike.",
+      "discoveryPoints": 5,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_ravines",
+          "colors": ["umber", "dirt", "bark"]
+        }
+      ],
+      "modifiers": {
+        "classification_weather": 1
+      }
+    },
+
+    {
+      "id": "planetTrait_volcanicActivity",
+      "name": "Volcanic Activity",
+      "icon": "icon_volcano",
+      "discoveryDescription": "Some volcanic activity was detected on this planet. In normal amounts, this is beneficial to formation of life.",
+      "discoveryPoints": 5,
+      "category": "LITHOSPERIC",
+      "textureSettings": [],
+      "modifiers": {
+        "classification_life": 1,
+        "classification_weather": 1
+      }
+    },
+
+
+    {
+      "id": "planetTrait_lush",
+      "name": "Lush",
+      "icon": "icon_leaf",
+      "discoveryDescription": "Scanners perfect conditions for a high biodiversity.",
+      "discoveryPoints": 15,
+      "category": "BIOLOGIC",
+      "textureSettings": [],
+      "modifiers": {
+        "classification_life": 1
+      }
+    },
+
+    {
+      "id": "planetTrait_magmaLakes",
+      "name": "Magma Lakes",
+      "icon": "icon_volcano",
+      "discoveryDescription": "Gigantic lakes of magma cover this planet, increasing its temperature and decreasing its capacity to support life.",
+      "discoveryPoints": 5,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_volcanic",
+          "colors": ["fire", "red", "crimson"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        }
+      ],
+      "modifiers": {
+        "classification_life": -2,
+        "classification_weather": 1,
+        "classification_temperature":1
+      }
+    },
+
+    {
+      "id": "planetTrait_blueLava",
+      "name": "Blue Lava Lakes",
+      "icon": "icon_volcano",
+      "discoveryDescription": "The magma here is blue due to burning sulphur that is trapped in the rock.",
+      "discoveryPoints": 5,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_volcanic",
+          "colors": ["prussian", "purple", "water"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        }
+      ],
+      "modifiers": {
+        "classification_life": -2,
+        "classification_weather": 1,
+        "classification_temperature":1
+      }
+    },
+
+    {
+      "id": "planetTrait_superVolcanoes",
+      "name": "Super Volcanoes",
+      "icon": "icon_volcano",
+      "discoveryDescription": "Multiple super volcanoes that emit massive amounts of toxic gas and ash have been spotted.",
+      "discoveryPoints": 5,
+      "category": "LITHOSPERIC",
+      "textureSettings": [],
+      "modifiers": {
+        "classification_life": -2,
+        "classification_weather": 2,
+        "classification_temperature": 2
+      }
+    },
+
+    {
+      "id": "planetTrait_geysers",
+      "name": "Geysers",
+      "icon": "icon_volcano",
+      "discoveryDescription": "You found Geysers!",
+      "discoveryPoints": 5,
+      "category": "HYDROSPHERIC",
+      "textureSettings": [],
+      "modifiers": {
+      }
+    },
+
+    {
+      "id": "asteroidTrait_small",
+      "name": "SmalL Asteroid",
+      "icon": "icon_volcano",
+      "discoveryDescription": "This asteroid is relatively small. There might be few resources on it.",
+      "discoveryPoints": 5,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+        {
+          "texture": "env/asteroid_base",
+          "colors": ["umber", "dirt", "savannah"]
+        }
+      ],
+      "modifiers": {
+      }
+    },
+
+    {
+      "id": "asteroidTrait_ironResource",
+      "name": "Iron Deposit",
+      "icon": "icon_volcano",
+      "discoveryDescription": "You found a deposit of iron below the surface. How many resources it has depends on the asteroid size.",
+      "discoveryPoints": 15,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+          {
+            "texture": "env/asteroid_ironore",
+            "colors": ["salmon", "rose"]
+          }
+      ],
+      "modifiers": {
+      }
+    },
+
+    {
+      "id": "asteroidTrait_copperResource",
+      "name": "Copper Deposit",
+      "icon": "icon_volcano",
+      "discoveryDescription": "You found a deposit of copper. How many resources it has depends on the asteroid size.",
+      "discoveryPoints": 15,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+        {
+          "texture": "env/asteroid_ironore",
+          "colors": ["cherry", "brick"]
+        }
+      ],
+      "modifiers": {
+      }
+    },
+
+    {
+      "id": "asteroidTrait_coreFragment",
+      "name": "Core Fragment",
+      "icon": "icon_quake",
+      "discoveryDescription": "The high Iron and Nickel composition of this asteroid indicates it may have been part of a planet destroyed in a cataclysmic collision.",
+      "discoveryPoints": 30,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+        {
+          "texture": "env/asteroid_ironore",
+          "colors": ["salmon", "rose"]
+        }
+      ],
+      "modifiers": {
+      }
+    },
+
+    {
+      "id": "trait_planetRings",
+      "name": "Planet Rings",
+      "icon": "icon_rings",
+      "discoveryDescription": "You found a planet ring.",
+      "discoveryPoints": 15,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_rings",
+          "colors": ["beige", "sand", "seaweed", "wheat", "lilac",
+                      "salmon", "olive"]
+        }
+      ],
+      "modifiers": {
+      }
+    },
+
+    {
+      "id": "planetTrait_accretionDisk",
+      "name": "Accretion Disk",
+      "icon": "icon_rings",
+      "discoveryDescription": "An accretion disk that has formed around the planet, usually a result of matter being ejected by a black hole and similar.",
+      "discoveryPoints": 30,
+      "category": "ATMOSPHERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_rings",
+          "colors": ["red", "yellow", "orange"]
+        }
+      ],
+      "modifiers": {
+        "classification_radiation": 2
+      }
+    },
+
+    {
+      "id": "planetTrait_magneticField",
+      "name": "Magnetic Field",
+      "icon": "icon_rings",
+      "discoveryDescription": "Scanners detected a prominent magnetic field, that shields potential life on the planet from cosmic rays. It also causes beautiful auroras on both poles.",
+      "discoveryPoints": 5,
+      "category": "ATMOSPHERIC",
+      "textureSettings": [
+
+      ],
+      "modifiers": {
+        "classification_life": 1,
+        "classification_radiation": -1
+      }
+    },
+
+    {
+      "id": "planetTrait_pulsarMagneticField",
+      "name": "Massive Magnetism",
+      "icon": "icon_rings",
+      "discoveryDescription": "The unfathomable magnetic field of this planet is a trillion times stronger than that of earth's.",
+      "discoveryPoints": 30,
+      "category": "ATMOSPHERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_rings",
+          "colors": ["red", "yellow", "orange"]
+        }
+      ],
+      "modifiers": {
+        "classification_radiation": 1
+      }
+    },
+
+    {
+      "id": "planetTrait_highDensity",
+      "name": "High Density Object",
+      "icon": "icon_plus",
+      "discoveryDescription": "Scanners detect an usually high density of mass that comes together with a massive gravitational pull.",
+      "discoveryPoints": 15,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+      ],
+      "modifiers": {
+      }
+    },
+
+    {
+      "id": "starTrait_spectral_o",
+      "name": "Spectral Class O",
+      "icon": "planetType_star",
+      "discoveryDescription": "A very hot and bright star that mostly emits ultraviolet light. In visible light, it shines bluish white. These stars are very young and usually found in regions of active star formation. Their incredible mass tends to end their existence in a supernova within a few millions of years. They also tend to cool down to B-Type stars. Both circumstances make O-Types rather rare finds.",
+      "discoveryPoints": 140,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_gaseous",
+          "colors": ["white", "brighterblue"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        }
+      ],
+      "modifiers": {
+      }
+    },
+
+    {
+      "id": "starTrait_spectral_b",
+      "name": "Spectral Class B",
+      "icon": "planetType_star",
+      "discoveryDescription": "A relatively young and massive star that shines deep blue white.",
+      "discoveryPoints": 45,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_gaseous",
+          "colors": ["brighterblue", "brightblue", "blue"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        }
+      ],
+      "modifiers": {
+      }
+    },
+
+    {
+      "id": "starTrait_spectral_a",
+      "name": "Spectral Class A",
+      "icon": "planetType_star",
+      "discoveryDescription": "The light of this star shines in white or blue-white. Their spectrum possess poignant hydrogen lines and traces of ionized metals. Stars of Spectral Class A are often very large and bright.",
+      "discoveryPoints": 45,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+      ],
+      "modifiers": {
+      }
+    },
+
+    {
+      "id": "starTrait_spectral_f",
+      "name": "Spectral Class F",
+      "icon": "planetType_star",
+      "discoveryDescription": "",
+      "discoveryPoints": 45,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+      ],
+      "modifiers": {
+      }
+    },
+
+    {
+      "id": "starTrait_spectral_g",
+      "name": "Spectral Class G",
+      "icon": "planetType_star",
+      "discoveryDescription": "This is the spectral class the sun in our home system has. Their light shines yellow-white. Class G stars are relatively rare, as they do not stay within the unstable supergiant class and evolve into other types of stars instead.",
+      "discoveryPoints": 70,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_gaseous",
+          "colors": ["orange", "bronze", "copper"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        }
+      ],
+      "modifiers": {
+      }
+    },
+
+    {
+      "id": "starTrait_spectral_k",
+      "name": "Spectral Class K",
+      "icon": "planetType_star",
+      "discoveryDescription": "These are yellow stars cooler than the our sun.",
+      "discoveryPoints": 70,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_gaseous",
+          "colors": ["yellow", "orange"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        }
+      ],
+      "modifiers": {
+      }
+    },
+
+    {
+      "id": "starTrait_spectral_m",
+      "name": "Spectral Class M",
+      "icon": "planetType_star",
+      "discoveryDescription": "The most common star type, shining in red. Instead of producing Helium and Hydrogen in their cores via nuclear fission, these produce heavier elements. Most Class M stars are Red Dwarves, but the largest known Supergiants in our observable universe (such as Antares and Betelgeuse) also have this class. While the most common star type, it is also the oldest, with Red Dwarves possessing estimated ages of a few thousands of billions of years. This would make them older than the known universe itself.",
+      "discoveryPoints": 50,
+      "category": "LITHOSPERIC",
+      "textureSettings": [
+        {
+          "texture": "env/planet_gaseous",
+          "colors": ["fire", "crimson"],
+          "minRotation": "0",
+          "maxRotation": "180"
+        }
+      ],
+      "modifiers": {
+      }
+    }
+
+  ]
+
+}

@@ -1,0 +1,23 @@
+{
+	"SolSystem": {
+	  "name": "SolSystem",
+	  "minPlanetSpeed": 0.0001,
+	  "maxPlanetSpeed": 0.01,
+	  "spacing": 900,
+	  "planetProbability": [
+		{ "weight": 100, "type": "archetype_solid", "subtype": "MOON" },
+		{ "weight": 100, "type": "archetype_solid", "subtype":"MOON" },
+		{ "weight": 30, "type":  "archetype_solid",  "subtype":"VOLCANIC" },
+		{ "weight": 40, "type":  "archetype_solid","subtype":"TOXIC" },
+		{ "weight": 50, "type":  "archetype_solid","subtype":"ASTEROID_BELT" },
+		{ "weight": 90, "type":  "archetype_solid","subtype":"CONTINENTAL" },
+		{ "weight": 20, "type":  "archetype_solid","subtype":"CONTINENTAL" },
+		{ "weight": 100, "type": "archetype_gaseous","subtype":"GASEOUS" },
+		{ "weight": 80, "type":  "archetype_gaseous","subtype":"GASEOUS" },
+		{ "weight": 50, "type":  "archetype_gaseous","subtype":"GASEOUS"},
+		{ "weight": 50, "type":  "archetype_gaseous","subtype":"GASEOUS" },
+	  	{ "weight": 30, "type":  "archetype_solid","subtype":"MOON" },
+	  	{ "weight": 10, "type":  "archetype_solid","subtype":"PLANEMO" }
+	  ]
+	}
+}

@@ -1,0 +1,37 @@
+{
+  "object": { "weight": 100, "type": "planetTrait_surfaceContinental"},
+  "children": [
+    {
+      "object": { "weight": 100, "type": "planetTrait_ocean80"},
+      "children": [
+        {
+          "object": {"weight": 5, "type": "planetTrait_fossilSite"},
+          "children": []
+        }
+      ]
+    },
+    {
+      "object": { "weight": 50, "type": "planetTrait_volcanicActivity"},
+      "children": [
+        {
+          "object": { "weight": 7, "type": "planetTrait_superVolcanoes"},
+          "children": []
+        },
+
+        {
+          "object": { "weight": 7, "type": "planetTrait_extremeMountains"},
+          "children": []
+        },
+
+        {
+          "object": { "weight": 7, "type": "planetTrait_geysers"},
+          "children": []
+        }
+      ]
+    },
+    {
+      "object": { "weight": 50, "type": "planetTrait_magneticField"},
+      "children": []
+    }
+  ]
+}

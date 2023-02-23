@@ -1,0 +1,465 @@
+{
+	"STAR": [
+		{
+			"name": "Sol",
+			"minAxisTilt": 0,
+			"maxAxisTilt": 10,
+			"minScale": 3,
+			"maxScale": 6,
+			"atmosphere": "env/planet_atmosphere",
+			"clouds": "env/planet_clouds",
+			"textures": [{
+					"texture": "env/planet_base",
+					"colors": ["orange"]
+				},
+				{
+					"texture": "env/planet_gaseous",
+					"colors": ["yellow"]
+				},
+				{
+					"texture": "env/planet_fractal",
+					"colors": ["salmon", "yellow"]
+				}
+			]
+		},
+
+		{
+			"name": "Red Giant",
+			"minAxisTilt": 0,
+			"maxAxisTilt": 10,
+			"minScale": 4,
+			"maxScale": 10,
+			"atmosphere": "env/planet_atmosphere",
+			"clouds": "env/planet_clouds",
+			"textures": [{
+					"texture": "env/planet_base",
+					"colors": ["fire", "red"]
+				},
+				{
+					"texture": "env/planet_fractal",
+					"colors": ["brick", "salmon"]
+				},
+				{
+					"texture": "env/planet_gaseous",
+					"colors": ["orange", "yellow"]
+				}
+			]
+		},
+
+		{
+			"name": "Blue Giant",
+			"minAxisTilt": 0,
+			"maxAxisTilt": 10,
+			"minScale": 5,
+			"maxScale": 12,
+			"atmosphere": "env/planet_atmosphere",
+			"clouds": "env/planet_clouds",
+			"textures": [{
+				"texture": "env/planet_base",
+				"colors": ["purple", "prussian"]
+			},
+				{
+					"texture": "env/planet_fractal",
+					"colors": ["lilac", "salmon"]
+				},
+				{
+					"texture": "env/planet_gaseous",
+					"colors": ["beach", "bubbles"]
+				}
+			]
+		}
+
+	],
+
+	"TOXIC": [
+		{
+			"minAxisTilt": 4,
+			"maxAxisTilt": 80,
+			"minScale": 0.9,
+			"maxScale": 1.2,
+			"atmosphere": "env/planet_atmosphere",
+			"clouds": "env/planet_clouds",
+			"ambientOcclusion": "env/planet_ao",
+			"textures": [
+				{
+					"texture": "env/planet_base",
+					"colors": ["tealDark", "water", "bubbles"]
+				},
+				{
+					"texture": "env/planet_fractal",
+					"colors": ["toxic", "meadow"],
+					"minRotation": "0",
+					"maxRotation": "180"
+				},
+				{
+					"texture": "env/planet_continental",
+					"colors": ["seaweed", "boreal", "borealDark", "moss"],
+					"minRotation": "0",
+					"maxRotation": "180"
+				},
+				{
+					"texture": "env/planet_icecaps",
+					"colors": ["toxic", "grayLight"]
+				}
+			]
+		}
+
+	],
+
+	"CONTINENTAL": [
+		{
+			"name": "EarthLike",
+			"minAxisTilt": 10,
+			"maxAxisTilt": 30,
+			"minScale": 0.9,
+			"maxScale": 1.2,
+			"atmosphere": "env/planet_atmosphere",
+			"clouds": "env/planet_clouds",
+			"ambientOcclusion": "env/planet_ao",
+			"textures": [{
+					"texture": "env/planet_base",
+					"colors": ["prussian", "water", "tealDark"]
+				},
+				{
+					"texture": "env/planet_continental",
+					"colors": ["savannah", "dirt", "sand", "wheat", "umber"],
+					"minRotation": "0",
+					"maxRotation": "180"
+				},
+				{
+					"texture": "env/planet_continental",
+					"colors": ["pine", "olive", "borealDark", "seaweed", "fern"],
+					"minRotation": "0",
+					"maxRotation": "180"
+				},
+				{
+					"texture": "env/planet_rocky",
+					"colors": ["steelgray", "grayLight", "bark"],
+					"minRotation": "0",
+					"maxRotation": "180"
+				},
+				{
+					"texture": "env/planet_ravines",
+					"colors": ["black50", "black25"]
+				},
+				{
+					"texture": "env/planet_icecaps",
+					"colors": ["grayLight", "white"]
+				}
+			]
+		},
+
+		{
+			"name": "FrozenEarth",
+			"minAxisTilt": 10,
+			"maxAxisTilt": 30,
+			"minScale": 0.9,
+			"maxScale": 1.2,
+			"atmosphere": "env/planet_atmosphere",
+			"clouds": "env/planet_clouds",
+			"ambientOcclusion": "env/planet_ao",
+			"textures": [{
+					"texture": "env/planet_base",
+					"colors": ["prussian", "water", "tealDark"]
+				},
+				{
+					"texture": "env/planet_continental",
+					"colors": ["pine", "olive", "borealDark", "seaweed", "fern"],
+					"minRotation": "0",
+					"maxRotation": "180"
+				},
+				{
+					"texture": "env/planet_rocky",
+					"colors": ["steelgray", "grayLight", "bark"],
+					"minRotation": "0",
+					"maxRotation": "180"
+				},
+				{
+					"texture": "env/planet_ravines",
+					"colors": ["black50", "black25"]
+				},
+				{
+					"texture": "env/planet_frozen",
+					"colors": ["white"]
+				}
+			]
+		}
+	],
+
+	"GASEOUS": [
+		{
+			"name": "JupiterLike",
+			"minAxisTilt": 0,
+			"maxAxisTilt": 10,
+			"minScale": 1.5,
+			"maxScale": 2.9,
+			"atmosphere": "env/planet_atmosphere",
+			"clouds": "env/planet_clouds",
+			"ambientOcclusion": "env/planet_ao",
+			"textures": [{
+					"texture": "env/planet_base",
+					"colors": ["leather", "bordeaux"]
+				},
+				{
+					"texture": "env/planet_continental",
+					"colors": ["salmon", "fire"],
+					"minRotation": "0",
+					"maxRotation": "180"
+				},
+				{
+					"texture": "env/planet_gaseous",
+					"colors": ["sand", "orangeyellow"]
+				}
+			],
+			"satellites": {
+				"count": 3,
+				"type": "MOON",
+				"archetype": "SmallMoon"
+			}
+		},
+		{
+			"name": "NeptuneLike",
+			"minAxisTilt": 0,
+			"maxAxisTilt": 10,
+			"minScale": 1.5,
+			"maxScale": 2.9,
+			"atmosphere": "env/planet_atmosphere",
+			"clouds": "env/planet_clouds",
+			"ambientOcclusion": "env/planet_ao",
+			"textures": [{
+					"texture": "env/planet_base",
+					"colors": ["prussian", "bordeaux"]
+				},
+				{
+					"texture": "env/planet_rocky",
+					"colors": ["amethyst", "fire"],
+					"minRotation": "0",
+					"maxRotation": "180"
+				},
+				{
+					"texture": "env/planet_gaseous",
+					"colors": ["beach", "grape"]
+				}
+			]
+		}
+	],
+
+	"VOLCANIC": [
+		{
+			"name": "LavaLand",
+			"minAxisTilt": 13,
+			"maxAxisTilt": 20,
+			"minScale": 0.75,
+			"maxScale": 1.3,
+			"atmosphere": "env/planet_atmosphere",
+			"clouds": "env/planet_clouds",
+			"ambientOcclusion": "env/planet_ao",
+			"textures": [
+				{
+				"texture": "env/planet_base",
+				"colors": ["black", "bordeaux"]
+				},
+				{
+					"texture": "env/planet_rocky",
+					"colors": ["dirt", "sand", "bark", "savannah"],
+					"minRotation": "0",
+					"maxRotation": "180"
+				},
+				{
+					"texture": "env/planet_volcanic",
+					"colors": ["fire", "red", "crimson"],
+					"minRotation": "0",
+					"maxRotation": "180"
+				},
+				{
+					"texture": "env/planet_fractal",
+					"colors": ["orangeyellow", "brick"],
+					"minRotation": "0",
+					"maxRotation": "45"
+				},
+				{
+					"texture": "env/planet_ravines",
+					"colors": ["yellow", "orange"],
+					"minRotation": "0",
+					"maxRotation": "45"
+				}
+			]
+		},
+		{
+			"name": "BlueLava",
+			"minAxisTilt": 13,
+			"maxAxisTilt": 20,
+			"minScale": 0.75,
+			"maxScale": 1.3,
+			"atmosphere": "env/planet_atmosphere",
+			"clouds": "env/planet_clouds",
+			"ambientOcclusion": "env/planet_ao",
+			"textures": [{
+				"texture": "env/planet_base",
+				"colors": ["black", "bordeaux"]
+			},
+				{
+					"texture": "env/planet_rocky",
+					"colors": ["dirt", "sand", "bark", "savannah"],
+					"minRotation": "0",
+					"maxRotation": "180"
+				},
+				{
+					"texture": "env/planet_volcanic",
+					"colors": ["prussian", "purple", "water"],
+					"minRotation": "0",
+					"maxRotation": "180"
+				},
+				{
+					"texture": "env/planet_ravines",
+					"colors": ["yellow", "orange"],
+					"minRotation": "0",
+					"maxRotation": "45"
+				}
+			]
+		}
+	],
+
+	"OCEANIC": [
+		{
+			"name": "FrozenOcean",
+			"minAxisTilt": 13,
+			"maxAxisTilt": 20,
+			"minScale": 0.75,
+			"maxScale": 1.3,
+			"atmosphere": "env/planet_atmosphere",
+			"clouds": "env/planet_clouds",
+			"ambientOcclusion": "env/planet_ao",
+			"textures": [
+				{
+				"texture": "env/planet_base",
+				"colors": ["prussian", "beach", "water"]
+				},
+				{
+					"texture": "env/planet_rocky",
+					"colors": ["bubbles", "sand", "rose", "savannah"],
+					"minRotation": "0",
+					"maxRotation": "180"
+				},
+				{
+					"texture": "env/planet_continental",
+					"colors": ["beach", "white"],
+					"minRotation": "0",
+					"maxRotation": "45"
+				},
+				{
+					"texture": "env/planet_fractal",
+					"colors": ["beach", "grape"],
+					"minRotation": "0",
+					"maxRotation": "45"
+				},
+				{
+					"texture": "env/planet_icecaps",
+					"colors": ["white", "grape"]
+				}
+			]
+		},
+		{
+			"name": "Archipelago",
+			"minAxisTilt": 15,
+			"maxAxisTilt": 25,
+			"minScale": 0.90,
+			"maxScale": 1.7,
+			"atmosphere": "env/planet_atmosphere",
+			"clouds": "env/planet_clouds",
+			"ambientOcclusion": "env/planet_ao",
+			"textures": [
+				{
+				"texture": "env/planet_base",
+				"colors": ["prussian", "water", "plum"]
+				},
+				{
+				"texture": "env/planet_fractal",
+				"colors": ["leather", "lilac"]
+				},
+				{
+					"texture": "env/planet_flecks",
+					"colors": ["sand", "bubbles","beach", "dirt"]
+				},
+				{
+					"texture": "env/planet_icecaps",
+					"colors": ["white", "grape"]
+				}
+			]
+		}
+	],
+
+	"MOON": [
+		{
+			"name": "SmallMoon",
+			"minAxisTilt": 5,
+			"maxAxisTilt": 20,
+			"minScale": 0.5,
+			"maxScale": 0.7,
+			"clouds": "env/planet_clouds",
+			"ambientOcclusion": "env/planet_ao",
+			"textures": [{
+					"texture": "env/planet_base",
+					"colors": ["wheat", "dirt", "sand", "salmon"]
+				},
+				{
+					"texture": "env/planet_fractal",
+					"colors": ["white", "sand", "dirt"],
+					"minRotation": "0",
+					"maxRotation": "180"
+				},
+				{
+					"texture": "env/planet_crater",
+					"colors": ["steelgray", "grayLight"],
+					"minRotation": "0",
+					"maxRotation": "90"
+				},
+				{
+					"texture": "env/planet_rocky",
+					"colors": ["bark", "brick", "leather"],
+					"minRotation": "0",
+					"maxRotation": "180"
+				},
+				{
+					"texture": "env/planet_ravines",
+					"colors": ["black50", "black25", "black10"]
+				}
+			]
+		},
+		{
+			"name": "LargeMoon",
+			"minAxisTilt": 5,
+			"maxAxisTilt": 20,
+			"minScale": 0.7,
+			"maxScale": 1.1,
+			"clouds": "env/planet_clouds",
+			"textures": [{
+					"texture": "env/planet_base",
+					"colors": ["wheat", "dirt", "sand"]
+				},
+				{
+					"texture": "env/planet_rocky",
+					"colors": ["steelgray", "black25", "dirt"],
+					"minRotation": "0",
+					"maxRotation": "180"
+				},
+				{
+					"texture": "env/planet_crater",
+					"colors": ["steelgray", "grayLight"],
+					"minRotation": "0",
+					"maxRotation": "90"
+				},
+				{
+					"texture": "env/planet_rocky",
+					"colors": ["bark", "seaweed", "grayDark"],
+					"minRotation": "0",
+					"maxRotation": "180"
+				},
+				{
+					"texture": "env/planet_ravines",
+					"colors": ["black50", "black25", "black10"]
+				}
+			]
+		}
+	]
+}

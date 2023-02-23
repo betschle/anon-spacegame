@@ -1,0 +1,721 @@
+{
+  "archetype_satellite": {
+    "id": "archetype_satellite",
+    "name": "Satellite",
+    "icon": "planetType_asteroid",
+    "discoveryDescription": "Scans reveal this is a satellite.",
+
+    "minAxisTilt": 10,
+    "maxAxisTilt": 27,
+    "minScale": 1,
+    "maxScale": 1.5,
+
+    "subtypes": {
+      "ASTEROID_SMALL": {
+        "minAxisTilt": 10,
+        "maxAxisTilt": 27,
+        "minScale": 1,
+        "maxScale": 1.5,
+        "traits": {
+          "object": { "weight": 100, "type": "asteroidTrait_small"},
+          "children": [
+            {
+              "object": { "weight": 20, "type": "asteroidTrait_coreFragment"},
+              "children": [
+                {
+                  "object": { "weight": 90, "type": "asteroidTrait_ironResource"},
+                  "children": []
+                }
+              ]
+            },
+            {
+              "object": { "weight": 5, "type": "asteroidTrait_copperResource"},
+              "children": []
+            },
+            {
+              "object": { "weight": 70, "type": "planetTrait_meteorShower"},
+              "children": []
+            },
+            {
+              "object": {"weight": 0.5, "type": "planetTrait_fossilSite"},
+              "children": []
+            }
+          ]
+        }
+      },
+      "ASTEROID_LARGE": {
+        "minAxisTilt": 10,
+        "maxAxisTilt": 27,
+        "minScale": 1,
+        "maxScale": 1.5,
+        "traits": {
+          "object": { "weight": 100, "type": "asteroidTrait_small"},
+          "children": [
+            {
+              "object": { "weight": 20, "type": "asteroidTrait_coreFragment"},
+              "children": [
+                {
+                  "object": { "weight": 90, "type": "asteroidTrait_ironResource"},
+                  "children": []
+                }
+              ]
+            },
+            {
+              "object": { "weight": 5, "type": "asteroidTrait_copperResource"},
+              "children": []
+            },
+            {
+              "object": { "weight": 70, "type": "planetTrait_meteorShower"},
+              "children": []
+            },
+            {
+              "object": {"weight": 0.5, "type": "planetTrait_fossilSite"},
+              "children": []
+            }
+          ]
+        }
+      },
+      "PLANEMO": {
+        "minAxisTilt": 10,
+        "maxAxisTilt": 27,
+        "minScale": 1,
+        "maxScale": 1.5,
+        "traits": {
+          "object": { "weight": 100, "type": "asteroidTrait_small"},
+          "children": [
+            {
+              "object": { "weight": 20, "type": "asteroidTrait_coreFragment"},
+              "children": [
+                {
+                  "object": { "weight": 90, "type": "asteroidTrait_ironResource"},
+                  "children": []
+                }
+              ]
+            },
+            {
+              "object": { "weight": 5, "type": "asteroidTrait_copperResource"},
+              "children": []
+            },
+            {
+              "object": { "weight": 70, "type": "planetTrait_meteorShower"},
+              "children": []
+            },
+            {
+              "object": { "weight": 5, "type": "planetTrait_meteorImpact"},
+              "children": []
+            },
+            {
+              "object": {"weight": 0.5, "type": "planetTrait_fossilSite"},
+              "children": []
+            }
+          ]
+        }
+      }
+    },
+
+    "modifiers": {
+      "classification_life": 1,
+      "classification_temperature": 0,
+      "classification_weather": 0
+    }
+  },
+
+  "archetype_solid": {
+    "id": "archetype_solid",
+    "name": "Solid Planet",
+    "icon": "planetType_solid",
+    "discoveryDescription": "Surface scans reveal this is a solid planet.",
+
+    "minAxisTilt": 10,
+    "maxAxisTilt": 27,
+    "minScale": 0.9,
+    "maxScale": 1.2,
+
+    "modifiers": {
+      "classification_life": 1,
+      "classification_temperature": 1,
+      "classification_weather": 1
+    },
+
+    "subtypes": {
+      "OCEANIC": {
+        "minAxisTilt": 9,
+        "maxAxisTilt": 37,
+        "minScale": 0.97,
+        "maxScale": 2.23,
+        "traits": {
+          "object": { "weight": 100, "type": "planetTrait_surfaceOceanic"},
+          "children": [
+            {
+              "object": { "weight": 90, "type": "planetTrait_volcanicActivity"},
+              "children": [
+                {
+                  "object": { "weight": 80, "type": "planetTrait_plateTectonics"},
+                  "children": [
+                    {
+                      "object": { "weight": 20, "type": "planetTrait_earthquakes"},
+                      "children": [
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "object": { "weight": 7, "type": "planetTrait_superVolcanoes"},
+                  "children": []
+                },
+                {
+                  "object": { "weight": 7, "type": "planetTrait_geysers"},
+                  "children": []
+                }
+              ]
+            },
+            {
+              "object": { "weight": 100, "type": "planetTrait_ocean80"},
+              "children": [
+                {
+                  "object": { "weight": 10, "type": "planetTrait_microbes"},
+                  "children": [
+                    {
+                      "object": { "weight": 80, "type": "planetTrait_algae"},
+                      "children": []
+                    },
+                    {
+                      "object": { "weight": 1, "type": "planetTrait_anoxicEvent"},
+                      "children": []
+                    },
+                    {
+                      "object": { "weight": 5, "type": "planetTrait_giantReef"},
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "object": { "weight": 90, "type": "planetTrait_atmosphere"},
+              "children": [
+                {
+                  "object": { "weight": 10, "type": "planetTrait_plants"},
+                  "children": []
+                },
+                {
+                  "object": { "weight": 3, "type": "planetTrait_acidRain"},
+                  "children": []
+                },
+                {
+                  "object": { "weight": 5, "type": "planetTrait_iceAge"},
+                  "children": [
+                    {
+                      "object": { "weight": 3, "type": "planetTrait_nuclearWinter"},
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "object": { "weight": 3, "type": "planetTrait_cyclone"},
+                  "children": []
+                },
+                {
+                  "object": { "weight": 5, "type": "planetTrait_lush"},
+                  "children": []
+                }
+              ]
+            },
+            {
+              "object": { "weight": 50, "type": "planetTrait_magneticField"},
+              "children": []
+            }
+          ]
+        }
+      },
+      "MOON": {
+        "minAxisTilt": 0,
+        "maxAxisTilt": 10,
+        "minScale": 0.7,
+        "maxScale": 0.9,
+        "traits": {
+          "object": { "weight": 100, "type": "planetTrait_surfaceBarren"},
+          "children": [
+            {
+              "object": { "weight": 60, "type": "planetTrait_meteorImpact"},
+              "children": []
+            },
+            {
+              "object": { "weight": 60, "type": "planetTrait_volcanicActivity"},
+              "children": [
+                {
+                  "object": { "weight": 40, "type": "planetTrait_atmosphere"},
+                  "children": [
+                    {
+                      "object": { "weight": 3, "type": "planetTrait_acidRain"},
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "object": { "weight": 40, "type": "planetTrait_plateTectonics"},
+                  "children": [
+                    {
+                      "object": { "weight": 20, "type": "planetTrait_earthquakes"},
+                      "children": [
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "object": { "weight": 7, "type": "planetTrait_superVolcanoes"},
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "TOXIC": {
+        "minAxisTilt": 20,
+        "maxAxisTilt": 30,
+        "minScale": 0.9,
+        "maxScale": 1.67,
+        "traits": {
+          "object": { "weight": 100, "type": "planetTrait_surfaceToxic"},
+          "children": [
+            {
+              "object": { "weight": 70, "type": "planetTrait_toxicOcean"},
+              "children": [
+                {
+                  "object": { "weight": 10, "type": "planetTrait_microbes"},
+                  "children": [
+                    {
+                      "object": { "weight": 10, "type": "planetTrait_anoxicEvent"},
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "object": { "weight": 90, "type": "planetTrait_toxicAtmosphere"},
+              "children": [
+                {
+                  "object": { "weight": 50,"type": "planetTrait_acidRain"},
+                  "children": []
+                },
+                {
+                  "object": { "weight": 10, "type": "planetTrait_nuclearWinter"},
+                  "children": []
+                }
+              ]
+            },
+            {
+              "object": { "weight": 10, "type": "trait_planetRings"},
+              "children": []
+            }
+          ]
+        }
+      },
+      "VOLCANIC": {
+        "minAxisTilt": 20,
+        "maxAxisTilt": 30,
+        "minScale": 0.89,
+        "maxScale": 1.5,
+        "traits": {
+          "object": { "weight": 100, "type": "planetTrait_surfaceVolcanic"},
+          "children": [
+            {
+              "object": { "weight": 30, "type": "planetTrait_magmaLakes"},
+              "children": [
+                {
+                  "object": { "weight": 10, "type": "planetTrait_microbes"},
+                  "children": []
+                }
+              ]
+            },
+            {
+              "object": { "weight": 7, "type": "planetTrait_superVolcanoes"},
+              "children": []
+            },
+
+            {
+              "object": { "weight": 7, "type": "planetTrait_extremeMountains"},
+              "children": []
+            },
+
+            {
+              "object": { "weight": 7, "type": "planetTrait_geysers"},
+              "children": []
+            },
+            {
+              "object": { "weight": 100, "type": "planetTrait_volcanicActivity"},
+              "children": [
+                {
+                  "object": { "weight": 20, "type": "planetTrait_toxicAtmosphere"},
+                  "children": []
+                }
+              ]
+            },
+            {
+              "object": { "weight": 10, "type": "planetTrait_magneticField"},
+              "children": []
+            },
+            {
+              "object": { "weight": 2, "type": "planetTrait_blueLava"},
+              "children": []
+            }
+          ]
+        }
+      },
+      "CONTINENTAL": {
+        "minAxisTilt": 20,
+        "maxAxisTilt": 30,
+        "minScale": 1.0,
+        "maxScale": 1.74,
+        "traits": {
+          "object": { "weight": 100, "type": "planetTrait_surfaceContinental"},
+          "children": [
+            {
+              "object": { "weight": 90, "type": "planetTrait_volcanicActivity"},
+              "children": [
+                {
+                  "object": { "weight": 80, "type": "planetTrait_plateTectonics"},
+                  "children": [
+                    {
+                      "object": { "weight": 20, "type": "planetTrait_earthquakes"},
+                      "children": [
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "object": { "weight": 17, "type": "planetTrait_superVolcanoes"},
+                  "children": []
+                },
+
+                {
+                  "object": { "weight": 17, "type": "planetTrait_extremeMountains"},
+                  "children": []
+                },
+
+                {
+                  "object": { "weight": 17, "type": "planetTrait_geysers"},
+                  "children": []
+                }
+              ]
+            },
+            {
+              "object": { "weight": 100, "type": "planetTrait_ocean80"},
+              "children": [
+                {
+                  "object": { "weight": 80, "type": "planetTrait_rainfall"},
+                  "children": []
+                },
+                {
+                  "object": { "weight": 80, "type": "planetTrait_microbes"},
+                  "children": [
+                    {
+                      "object": { "weight": 60, "type": "planetTrait_algae"},
+                      "children": []
+                    },
+                    {
+                      "object": { "weight": 10, "type": "planetTrait_anoxicEvent"},
+                      "children": []
+                    },
+                    {
+                      "object": { "weight": 10, "type": "planetTrait_giantReef"},
+                      "children": []
+                    },
+                    {
+                      "object": {"weight": 10, "type": "planetTrait_fossilSite"},
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "object": { "weight": 90, "type": "planetTrait_atmosphere"},
+              "children": [
+                {
+                  "object": { "weight": 40, "type": "planetTrait_plants"},
+                  "children": []
+                },
+                {
+                  "object": { "weight": 33, "type": "planetTrait_acidRain"},
+                  "children": []
+                },
+                {
+                  "object": { "weight": 10, "type": "planetTrait_iceAge"},
+                  "children": [
+                    {
+                      "object": { "weight": 3, "type": "planetTrait_nuclearWinter"},
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "object": { "weight": 13, "type": "planetTrait_cyclone"},
+                  "children": []
+                },
+                {
+                  "object": { "weight": 15, "type": "planetTrait_lush"},
+                  "children": []
+                }
+              ]
+            },
+            {
+              "object": { "weight": 50, "type": "planetTrait_magneticField"},
+              "children": []
+            },
+            {
+              "object": { "weight": 10, "type": "planetTrait_meteorImpact"},
+              "children": []
+            }
+          ]
+        },
+
+        "atmosphericTraits": {},
+
+        "stratosphericTraits": {},
+
+        "biologicTraits": {
+          "object": { "weight": 5, "type": "planetTrait_fossilSite"},
+          "children": []
+        }
+      }
+    }
+  },
+
+
+  "archetype_gaseous": {
+    "id": "archetype_gaseous",
+    "name": "Gaseous Planet",
+    "icon": "planetType_gaseous",
+    "discoveryDescription": "Surface scans reveal this is a gaseous planet. There is no solid surface beneath those thick clouds of gas. The pressure at the center is immense, turning gaseous matter into liquid state.",
+
+    "minAxisTilt": 0,
+    "maxAxisTilt": 10,
+    "minScale":  3,
+    "maxScale": 4,
+
+    "modifiers": {
+      "classification_life": 0,
+      "classification_temperature": 2,
+      "classification_weather": 3
+    },
+    "subtypes": {
+      "HYDROGEN": {
+        "minAxisTilt": 0,
+        "maxAxisTilt": 10,
+        "minScale":  4,
+        "maxScale": 7,
+        "traits": {
+          "object": { "weight": 100, "type": "planetTrait_surfaceGaseous" },
+          "children": [
+            {
+              "object": { "weight": 50, "type": "planetTrait_gaseousStorms" },
+              "children": [
+                {
+                  "object": { "weight": 20, "type": "planetTrait_gaseousCyclone" },
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "object": { "weight": 1, "type": "planetTrait_diamondRain" },
+              "children": [
+              ]
+            },
+            {
+              "object": { "weight": 40, "type": "trait_planetRings" },
+              "children": [
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+
+
+  "archetype_star": {
+    "id": "archetype_star",
+    "name": "Star",
+    "icon": "planetType_star",
+    "discoveryDescription": "Surface scans reveal this is a star, obviously.",
+
+    "minAxisTilt": 0,
+    "maxAxisTilt": 10,
+    "minScale": 10,
+    "maxScale": 16,
+
+    "textureSetting": {
+      "texture": "env/planet_base",
+      "colors": ["tealDark", "water", "bubbles"]
+    },
+
+    "modifiers": {
+      "classification_life": 1,
+      "classification_temperature": 3,
+      "classification_weather": 3
+    },
+
+    "subtypes": {
+      "YELLOW": {
+        "minAxisTilt": 0,
+        "maxAxisTilt": 10,
+        "minScale": 7,
+        "maxScale": 10,
+        "traits": {
+          "object": { "weight": 100, "type": "planetTrait_surfaceSun" },
+          "children": [
+            {
+              "object": { "weight": 100, "type": "starTrait_spectral_g" },
+              "children": [
+              ]
+            }
+          ]
+        }
+      },
+      "BLUE": {
+        "minAxisTilt": 0,
+        "maxAxisTilt": 10,
+        "minScale": 15,
+        "maxScale": 20,
+        "traits": {
+          "object": { "weight": 100, "type": "planetTrait_surfaceSun" },
+          "children": [
+            {
+              "object": { "weight": 100, "type": "starTrait_spectral_b" },
+              "children": [
+              ]
+            }
+          ]
+        }
+      },
+      "RED": {
+        "minAxisTilt": 0,
+        "maxAxisTilt": 10,
+        "minScale": 10,
+        "maxScale": 18,
+        "traits": {
+          "object": { "weight": 100, "type": "planetTrait_surfaceSun" },
+          "children": [
+            {
+              "object": { "weight": 100, "type": "starTrait_spectral_m" },
+              "children": [
+              ]
+            }
+          ]
+        }
+      },
+      "RED_DWARF": {
+        "minAxisTilt": 0,
+        "maxAxisTilt": 10,
+        "minScale": 5,
+        "maxScale": 8,
+        "traits": {
+          "object": { "weight": 100, "type": "planetTrait_surfaceDwarf" },
+          "children": [
+            {
+              "object": { "weight": 100, "type": "starTrait_spectral_m" },
+              "children": [
+              ]
+            }
+          ]
+        }
+      },
+      "PULSAR": {
+        "minAxisTilt": 0,
+        "maxAxisTilt": 10,
+        "minScale": 6,
+        "maxScale": 9,
+        "traits": {
+          "object": { "weight": 100, "type": "planetTrait_surfaceNeutronStar" },
+          "children": [
+            {
+              "object": { "weight": 100, "type": "starTrait_spectral_o" },
+              "children": [
+              ]
+            },
+            {
+              "object": { "weight": 3, "type": "planetTrait_highDensity" },
+              "children": [
+                {
+                  "object": { "weight": 20, "type": "planetTrait_accretionDisk" },
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "object": { "weight": 40, "type": "trait_planetRings" },
+              "children": [
+              ]
+            }
+          ]
+        }
+      },
+      "MAGNETAR": {
+        "minAxisTilt": 0,
+        "maxAxisTilt": 10,
+        "minScale": 6,
+        "maxScale": 9,
+        "traits": {
+          "object": { "weight": 100, "type": "planetTrait_surfaceNeutronStar" },
+          "children": [
+            {
+              "object": { "weight": 100, "type": "starTrait_spectral_o" },
+              "children": [
+              ]
+            },
+            {
+
+              "object": { "weight": 90, "type": "planetTrait_highDensity" },
+              "children": [
+                {
+                  "object": { "weight": 20, "type": "planetTrait_accretionDisk" },
+                  "children": [
+                  ]
+                },
+                {
+                  "object": { "weight": 20, "type": "planetTrait_pulsarMagneticField" },
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "object": { "weight": 40, "type": "trait_planetRings" },
+              "children": [
+              ]
+            }
+          ]
+        }
+      },
+      "CARBON_STAR": {
+        "minAxisTilt": 0,
+        "maxAxisTilt": 10,
+        "minScale": 8,
+        "maxScale": 10,
+        "traits": {
+          "object": { "weight": 100, "type": "planetTrait_surfaceCarbonStar" },
+          "children": [
+            {
+              "object": { "weight": 100, "type": "starTrait_spectral_m" },
+              "children": []
+            },
+            {
+              "object": { "weight": 90, "type": "planetTrait_highDensity" },
+              "children": []
+            },
+            {
+              "object": { "weight": 40, "type": "trait_planetRings" },
+              "children": [
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
